@@ -2,6 +2,7 @@ package MyPackage;
 
  
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,8 +29,8 @@ public class webtestfirst {
 	    System.out.println("Enabled status is:"+searchStore.isEnabled());  //true
 	    
 	    //isSelected 
-	    
-	   driver.get("https://demo.nopcommerce.com/register?returnUrl=%2F");
+	    driver.get("https://demo.nopcommerce.com/register?returnUrl=%2F");
+	   //String XpathRegister = "//*[contains(@class,'ico-register')]";
 	   WebElement male = driver.findElement(By.xpath("//*[@id='gender-male']"));
 	   WebElement female = driver.findElement(By.xpath("//*[@id=\'gender-female\']"));
 	   System.out.println("the  male element is selected:" +male.isSelected());       //false
