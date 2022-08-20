@@ -14,7 +14,7 @@ public class browser {
 
         public static void main(String[] args) {
         	
-        	//**************************Classic approche *****************************//
+        	//**************************  Classic approche  *****************************//
         	
         	//chrome browser
 //           System.setProperty("webdriver.chrome.driver","C:\\Users\\ghazi\\Desktop\\selenium4-training\\chromedriver.exe");
@@ -65,13 +65,13 @@ public class browser {
           
           //navigate back , refresh , forward command
           
-            WebDriverManager.chromedriver().setup();
-            WebDriver driver = new ChromeDriver();       
+//            WebDriverManager.chromedriver().setup();
+//            WebDriver driver = new ChromeDriver();       
           	
               //Maximize current window
-              driver.manage().window().maximize();  
-              
-            driver.get("https://demo.nopcommerce.com/"); 
+//              driver.manage().window().maximize();  
+//              
+//            driver.get("https://demo.nopcommerce.com/"); 
             //driver.get("https://www.amazon.com/"); 
 //            driver.navigate().to("https://www.amazon.com/");
 //            
@@ -108,10 +108,12 @@ public class browser {
 //             System.out.println("Numberof elements captured:" +Logo.size());  
             
           //Scenario 2:
-         List<WebElement> elements =driver.findElements(By.xpath("//img[contains(@title,'Emmmctronics')]"));
-         System.out.println("Numberof elements captured:" +elements.size()); 
+//         List<WebElement> elements =driver.findElements(By.xpath("//img[contains(@title,'Emmmctronics')]"));
+//         System.out.println("Numberof elements captured:" +elements.size()); 
         	
-        	
+
+        	udemyy m = new udemyy();
+        	System.out.println(m.validateheader());
         	
         	
         	
